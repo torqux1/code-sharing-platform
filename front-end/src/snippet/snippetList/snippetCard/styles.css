@@ -1,0 +1,35 @@
+.snippetCard {
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(255, 248, 248, 0.2);
+    max-width: 25em;
+    height: 20em;
+    margin-top: 5px;
+    margin-right: 12px;
+    margin-bottom: 1px;
+    margin-left: 12px;
+    text-align: center;
+    font-family: arial;
+    padding-right: 1px;
+    overflow: auto;
+  }
+  
+  .snippetHeader {
+    max-height: 10em;
+    overflow: auto;
+  }
+
+  .snippetDescription {
+    padding-top: 1%;
+    height: 20%;
+    overflow: auto; 
+  }
+
+  .snippetTags {
+    height: 25%;
+    overflow: auto; 
+  }
+
+  .snippetButtons {
+    padding-right: 0em;
+    padding-bottom: 0em;
+  }

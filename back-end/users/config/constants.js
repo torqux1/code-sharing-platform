@@ -1,0 +1,4 @@
+module.exports = {
+    DEFAULT_SELECT_LIMIT: 10,
+    DEFAULT_SELECT_MAX_LIMIT: 100
+};

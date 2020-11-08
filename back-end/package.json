@@ -1,0 +1,21 @@
+{
+  "name": "code-sharing-platform-back-end",
+  "version": "1.0.0",
+  "description": "Platform for sharing code snippets among users",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Ivaylo Iliev",
+  "license": "II",
+  "dependencies": {
+    "ajv": "^6.12.6",
+    "body-parser": "1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.3",
+    "url-pattern": "^1.0.3",
+    "uuid": "^8.3.0"
+  }
+}
