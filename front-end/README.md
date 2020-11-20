@@ -18,3 +18,8 @@ To run the project, please use a command line the following:
  - Redirect after login in case logout has been done from different component
  - Snippet cards styles should be modified to appear with same size 
  - Unit testing of components using jest
+ 
+  # Recommendations
+  - In case of a need to update a state using the previous one, use setData((prevData) => {return prevdata.filter ... } ) - much safer and better
+  - When passing props, use destructuring in child component like function ListItem({item, deleteHandler}){}. 
+    If props are too many, do it in function body like const { count, page, rowsPerPage, onChangePage } = props;  
