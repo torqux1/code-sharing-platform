@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { TextField, Card, CardContent, Chip, Box } from '@material-ui/core'
 
+// Maybe its good idea if properties are not many no destructure them like function Tag({deletetag})
 function Tag(props) {
   const [tagContent, setTagContent] = useState('');
 
